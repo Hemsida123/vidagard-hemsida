@@ -1,0 +1,23 @@
+ATELJÉ VIDAGÅRD – UPPDATERAD HEMSIDA
+
+Filer för GitHub:
+Lägg index.html och hela mappen assets bredvid varandra i hemsidans rotmapp.
+Bilderna behövs tillsammans med index.html. Ingen byggprocess krävs.
+
+Uppdaterat:
+- 14 unika kundbilder, beskurna utan AI.
+- Telefonens gränssnitt och den pålagda texten på exteriörbilden är bortbeskurna.
+- Kvadratiskt format med diskret enfärgad utfyllnad där hela stolen eller målningen behöver bevaras.
+- Kristinas porträtt i presentationen.
+- Egna avsnitt för handmålade barnstolar och akvareller, med bildförstoring.
+- Keramiktexter och generiska bilder borttagna.
+- Kundens bilder även i butiks- och caféavsnitten.
+- Svenska och engelska texter, bildbeskrivningar och uppdaterad SEO-information.
+- Responsiva WebP-bilder i två storlekar; bilder längre ner laddas vid behov.
+
+Alla slutbilder bygger på originalen. Ingen AI-retusch används på hemsidan.
+Konstverkens penseldrag, signaturer och porträttet har inte målats om.
+Originalbildernas naturliga reflexer och handskrivna anteckningar på papper finns kvar.
+Den dubbla bilden av akvareller på arbetsbordet har ersatts med originalet i högre upplösning.
+
+Hemsidan är uppdaterad lokalt. Ingen publicering eller Git-push har gjorts.

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Ateljé Vidagård — Barnstolar, akvareller &amp; café i Skruv</title>
+<meta name="description" content="Upptäck Ateljé Vidagård i Skruv: Kristina Linds handmålade barnstolar, akvareller, inredning och café med hembakat. Välkommen till Glasriket.">
+<meta name="keywords" content="Ateljé Vidagård, handmålat, barnstolar, barnmöbler, akvareller, inredning, café, Skruv, Glasriket, utvandrarbygden, Kristina Lind">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://www.ateljevidagard.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:site_name" content="Ateljé Vidagård">
+<meta property="og:title" content="Ateljé Vidagård — Barnstolar, akvareller &amp; café i Skruv">
+<meta property="og:description" content="Gårdsbutik och café på landet i Glasriket. Handmålade barnstolar och barnmöbler, akvareller och inredning – och hembakat fika i den mysiga trädgården.">
+<meta property="og:image" content="https://www.ateljevidagard.com/assets/images/atelje-exterior.webp">
+<meta name="theme-color" content="#8E3626">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org","@type":["Store","CafeOrCoffeeShop"],
+ "name":"Ateljé Vidagård",
+ "description":"Gårdsbutik och café med handmålade barnmöbler, akvareller och inredning. Grundat 1994 av Kristina Lind.",
+ "url":"https://www.ateljevidagard.com/",
+ "image":"https://www.ateljevidagard.com/assets/images/atelje-exterior.webp",
+ "foundingDate":"1994","founder":{"@type":"Person","name":"Kristina Lind","image":"https://www.ateljevidagard.com/assets/images/kristina-lind.webp"},
+ "telephone":"+46705593011","email":"info@ateljevidagard.com",
+ "address":{"@type":"PostalAddress","streetAddress":"Vida Västergård 1","postalCode":"365 94","addressLocality":"Skruv","addressCountry":"SE"},
+ "openingHoursSpecification":[
+  {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"11:00","closes":"15:00"},
+  {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"12:00","closes":"16:00"}
+ ],
+ "sameAs":["https://www.facebook.com/AteljeVidagard","https://www.instagram.com/atelje_vidagard/"]
+}
+</script>
+<style>
+:root{
+  --linen:#F7F1E6;
+  --linen-2:#F0E8D8;
+  --linen-3:#E7DCC7;
+  --ink:#2A2119;
+  --ink-2:#3A2F24;
+  --falu:#8E3626;
+  --falu-2:#A5432F;
+  --falu-l:#C06A52;
+  --sage:#6B7658;
+  --clay:#BE7444;
+  --gold:#B08A47;
+  --gold-l:#D3B584;
+  --muted:#625646;
+  --muted-l:#71624F;
+  --line:#E4DAC5;
+  --line-2:#D8CBB0;
+  --line-dark:rgba(247,241,230,.15);
+  --focus:#8E3626;
+  --shadow:0 40px 90px -40px rgba(42,33,25,.4);
+  --shadow-sm:0 18px 48px -24px rgba(42,33,25,.3);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--linen);color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased;font-size:16px;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.08;letter-spacing:0}
+img{display:block;max-width:100%}
+a{text-decoration:none;color:inherit}
+button{font-family:inherit;cursor:pointer}
+.wrap{max-width:1220px;margin:0 auto;padding:0 clamp(20px,5vw,34px)}
+[id]{scroll-margin-top:120px}
+:focus-visible{outline:2.5px solid var(--focus);outline-offset:3px}
+.skip{position:absolute;left:-9999px;top:0;background:var(--falu);color:#fff;padding:12px 20px;z-index:1000}
+.skip:focus{left:12px;top:12px}
+::selection{background:var(--gold-l);color:var(--ink)}
+.progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--falu),var(--clay));z-index:300;transition:width .1s linear}
+.grain{position:fixed;inset:0;z-index:400;pointer-events:none;opacity:.04;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* Header — single fixed unit (strip + bar) */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:background .4s,box-shadow .4s,border-color .4s;border-bottom:1px solid transparent}
+header::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,10,.55),rgba(20,14,10,0));opacity:1;transition:opacity .4s;pointer-events:none;z-index:-1}
+header.solid{background:rgba(247,241,230,.97);backdrop-filter:blur(12px);box-shadow:0 10px 40px rgba(42,33,25,.09);border-color:var(--line)}
+header.solid::before{opacity:0}
+.topstrip{border-bottom:1px solid rgba(255,255,255,.18);transition:border-color .4s}
+header.solid .topstrip{border-color:var(--line)}
+.topstrip .wrap{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:8px 0;font-size:12.5px;letter-spacing:.02em;color:rgba(255,255,255,.82)}
+header.solid .topstrip .wrap{color:var(--muted)}
+.topstrip a{color:inherit}.topstrip a:hover{color:var(--gold-l)}
+header.solid .topstrip a:hover{color:var(--falu)}
+.topstrip .r{display:flex;gap:14px;align-items:center}
+.topstrip .sep{opacity:.4}
+.lang{display:inline-flex;border:1px solid rgba(255,255,255,.4);border-radius:40px;overflow:hidden}
+header.solid .lang{border-color:var(--line-2)}
+.lang button{background:none;border:0;color:inherit;font-size:11px;letter-spacing:.08em;padding:3px 11px;font-weight:600;min-height:24px;opacity:.85}
+.lang button.on{background:var(--falu);color:#fff;opacity:1}
+header.solid .lang button.on{background:var(--falu);color:#fff}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:15px 0;transition:padding .35s}
+header.solid .bar{padding:11px 0}
+.brand{display:flex;align-items:center;gap:13px;flex-shrink:0;color:#fff}
+header.solid .brand{color:var(--ink)}
+.brand .mark{width:46px;height:46px;border:1px solid currentColor;border-radius:50%;display:grid;place-items:center;font-family:'Cormorant Garamond';font-size:20px;font-weight:600;flex-shrink:0;color:var(--gold-l);position:relative}
+.brand .mark::after{content:'';position:absolute;inset:4px;border:1px solid currentColor;border-radius:50%;opacity:.35}
+header.solid .brand .mark{color:var(--falu)}
+.brand .txt{display:flex;flex-direction:column;line-height:1.02}
+.brand b{font-family:'Cormorant Garamond';font-size:27px;font-weight:600;letter-spacing:.02em}
+.brand span{font-size:8.5px;letter-spacing:.26em;text-transform:uppercase;opacity:.82;margin-top:3px}
+nav.main{display:flex;align-items:center;gap:30px;flex-wrap:nowrap}
+nav.main a{font-size:14px;letter-spacing:.03em;color:rgba(255,255,255,.94);position:relative;padding:6px 0;white-space:nowrap;transition:color .2s;font-weight:500}
+header.solid nav.main a{color:var(--ink-2)}
+nav.main a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:1.5px;background:currentColor;transition:width .35s cubic-bezier(.4,0,.1,1)}
+nav.main a:hover{color:var(--gold-l)}
+header.solid nav.main a:hover{color:var(--falu)}
+nav.main a:hover::after{width:100%}
+.head-right{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 26px;font-size:13px;letter-spacing:.06em;font-weight:600;transition:.28s cubic-bezier(.4,0,.1,1);border:none;min-height:48px;position:relative;border-radius:2px;text-transform:uppercase}
+.btn-falu{background:var(--falu);color:#fff}
+.btn-falu:hover{background:var(--ink);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.btn-ink{background:var(--ink);color:#fff}
+.btn-ink:hover{background:var(--falu);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.btn-outline{border:1.5px solid var(--ink);color:var(--ink);background:transparent}
+.btn-outline:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
+.btn-outline-l{border:1.5px solid rgba(255,255,255,.65);color:#fff;background:transparent;backdrop-filter:blur(4px)}
+.btn-outline-l:hover{background:rgba(255,255,255,.14);border-color:#fff}
+.btn-cream{background:var(--linen);color:var(--falu)}
+.btn-cream:hover{background:#fff;transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.btn .arw{transition:transform .3s}
+.btn:hover .arw{transform:translateX(4px)}
+.burger{display:none;background:none;border:0;width:48px;height:48px;align-items:center;justify-content:center;color:#fff}
+header.solid .burger{color:var(--ink)}
+.burger span{display:block;width:26px;height:2px;background:currentColor;position:relative;transition:.3s}
+.burger span::before,.burger span::after{content:'';position:absolute;left:0;width:26px;height:2px;background:currentColor;transition:.3s}
+.burger span::before{top:-8px}.burger span::after{top:8px}
+.burger.x span{background:transparent}
+.burger.x span::before{top:0;transform:rotate(45deg)}
+.burger.x span::after{top:0;transform:rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;inset:0;background:var(--falu);z-index:99;padding:110px clamp(20px,5vw,34px) 40px;flex-direction:column;overflow-y:auto}
+.mobile-menu.open{display:flex}
+.mobile-menu a{font-family:'Cormorant Garamond';font-size:32px;color:#fff;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.16)}
+.mobile-menu .btn{margin-top:24px}
+
+/* Hero */
+.hero{position:relative;height:100svh;min-height:600px;overflow:hidden;background:var(--ink)}
+.hero-bg{position:absolute;inset:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;transform:scale(1.1);animation:kb 16s ease-out forwards}
+@keyframes kb{to{transform:scale(1)}}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,20,14,.52) 0%,rgba(28,20,14,.3) 40%,rgba(28,20,14,.8) 100%);z-index:2}
+.hero-inner{position:absolute;inset:0;z-index:3;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:120px 24px 130px;color:#fff}
+.hero-seal{display:inline-flex;align-items:center;gap:12px;margin-bottom:22px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+.hero-seal .st{width:24px;height:1px;background:var(--gold-l)}
+.hero-eyebrow{font-size:12.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-l);font-weight:600;margin-bottom:20px}
+.hero h1{font-size:clamp(52px,9vw,124px);font-weight:600;letter-spacing:0;line-height:.98;margin-bottom:8px;text-shadow:0 4px 40px rgba(0,0,0,.4)}
+.hero h1 em{font-style:italic;color:var(--gold-l)}
+.brushline{display:block;width:min(320px,64%);height:16px;margin:2px auto 26px;color:var(--gold-l);opacity:.95}
+.hero-lead{font-size:clamp(16px,2vw,21px);color:rgba(255,255,255,.92);max-width:640px;margin:0 auto 36px;font-family:'Inter'}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.hero-scroll{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:4;color:#fff;font-size:11px;letter-spacing:.2em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:10px;opacity:.85}
+.hero-scroll .ln{width:1px;height:40px;background:linear-gradient(var(--gold-l),transparent);position:relative;overflow:hidden}
+.hero-scroll .ln::after{content:'';position:absolute;top:-40px;left:0;width:1px;height:40px;background:#fff;animation:drop 2.2s infinite}
+@keyframes drop{to{top:40px}}
+
+/* Facts */
+.facts{background:var(--sage);color:#fff}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:26px 30px;text-align:center}
+.facts .f b{font-family:'Cormorant Garamond';font-size:20px;font-weight:600;display:block}
+.facts .f span{font-size:12.5px;opacity:.9;display:block;margin-top:2px}
+.facts .f:not(:last-child){border-right:1px solid rgba(255,255,255,.22)}
+
+/* Ribbon */
+.ribbon{background:var(--linen-3);border-bottom:1px solid var(--line);overflow:hidden;padding:15px 0}
+.ribbon-track{display:flex;white-space:nowrap;width:max-content;animation:ribbon 46s linear infinite;align-items:center}
+.ribbon-track span{font-family:'Cormorant Garamond';font-style:italic;font-size:21px;color:var(--falu);padding:0 12px}
+.ribbon-track b{color:var(--gold);font-size:13px;font-weight:400;padding:0 6px}
+@keyframes ribbon{to{transform:translateX(-50%)}}
+.ribbon:hover .ribbon-track{animation-play-state:paused}
+
+/* Sections */
+section{padding:clamp(72px,9vw,126px) 0;position:relative}
+.eyebrow{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--falu);font-weight:600;margin-bottom:20px;display:flex;align-items:center;gap:13px}
+.eyebrow::before{content:'';width:32px;height:1px;background:var(--falu)}
+.center .eyebrow{justify-content:center}.center .eyebrow::after{content:'';width:32px;height:1px;background:var(--falu)}
+.sec-title{font-size:clamp(38px,5vw,66px);font-weight:600;letter-spacing:0;margin-bottom:20px;max-width:20ch}
+.sec-title em{font-style:italic;color:var(--falu)}
+.sec-lead{color:var(--muted);max-width:660px;font-size:17px}
+.center{text-align:center}
+.center .sec-title,.center .sec-lead{margin-left:auto;margin-right:auto}
+.ornament{display:flex;align-items:center;justify-content:center;gap:14px;max-width:300px;margin:44px auto 0}
+.ornament .ln{height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--line-2))}
+.ornament .ln.r{background:linear-gradient(90deg,var(--line-2),transparent)}
+.ornament svg{width:30px;height:30px;color:var(--falu);flex-shrink:0}
+
+/* Welcome / om */
+.welcome{background:linear-gradient(180deg,var(--linen),var(--linen-2))}
+.wel-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,5vw,78px);align-items:center}
+.wel-copy .big{font-family:'Cormorant Garamond';font-size:clamp(26px,2.8vw,38px);font-style:italic;color:var(--ink);line-height:1.28;margin-bottom:22px}
+.wel-copy p{color:var(--muted);font-size:16.5px;margin-bottom:16px}
+.wel-media{position:relative}
+.wel-media img{width:100%;height:560px;object-fit:cover;border-radius:3px;box-shadow:var(--shadow)}
+.wel-media::before{content:'';position:absolute;inset:16px -16px -16px 16px;border:1.5px solid var(--falu);border-radius:3px;z-index:-1;opacity:.5}
+.wel-media .stamp{position:absolute;top:-24px;left:-24px;background:var(--falu);color:#fff;width:126px;height:126px;border-radius:50%;display:grid;place-items:center;text-align:center;font-family:'Cormorant Garamond';box-shadow:var(--shadow-sm),inset 0 0 0 4px rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:12px;line-height:1.1}
+.wel-media .stamp b{font-size:34px;display:block;font-style:italic;font-weight:600}
+.wel-media .stamp span{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin-top:3px}
+
+/* Sortiment cards */
+.range{background:var(--linen)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px}
+.card{background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden;display:flex;flex-direction:column;transition:.35s}
+.card:hover{box-shadow:var(--shadow-sm);transform:translateY(-6px)}
+.card-img{height:280px;overflow:hidden;position:relative}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.6,.2,1)}
+.card:hover .card-img img{transform:scale(1.07)}
+.card-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 58%,rgba(42,33,25,.32));opacity:0;transition:opacity .4s}
+.card:hover .card-img::after{opacity:1}
+.card-body{padding:28px 30px}
+.card-body .k{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--clay);font-weight:600;margin-bottom:10px}
+.card-body h3{font-family:'Cormorant Garamond';font-size:29px;font-weight:600;margin-bottom:8px;position:relative;display:inline-block}
+.card-body h3::after{content:'';position:absolute;left:0;bottom:-5px;width:0;height:2px;background:var(--falu);transition:width .4s cubic-bezier(.4,0,.1,1)}
+.card:hover .card-body h3::after{width:40px}
+.card-body p{font-size:14.5px;color:var(--muted);margin-top:10px}
+
+/* Handmålat feature */
+.craft{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.craft .eyebrow{color:var(--gold-l)}.craft .eyebrow::before{background:var(--gold-l)}
+.craft-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(40px,5vw,74px);align-items:center}
+.craft-media img{width:100%;height:540px;object-fit:cover;border-radius:3px;box-shadow:var(--shadow)}
+.craft-copy .sec-title{color:#fff}
+.craft-copy .sec-lead{color:rgba(255,255,255,.8)}
+.craft-copy p{color:rgba(255,255,255,.82);margin-bottom:16px;font-size:16.5px}
+.craft-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+.craft-list span{font-size:13px;padding:8px 15px;border:1px solid rgba(255,255,255,.24);border-radius:40px;color:#fff;background:rgba(255,255,255,.05)}
+
+/* Café */
+.cafe{background:var(--linen-2)}
+.cafe-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,5vw,74px);align-items:center}
+.cafe-media{position:relative}
+.cafe-media img{width:100%;height:560px;object-fit:cover;border-radius:3px;box-shadow:var(--shadow)}
+.cafe-media::before{content:'';position:absolute;inset:16px -16px -16px 16px;border:1.5px solid var(--sage);border-radius:3px;z-index:-1;opacity:.55}
+.cafe-tag{font-family:'Cormorant Garamond';font-style:italic;font-size:26px;color:var(--falu);margin:6px 0 20px}
+.cafe-copy p{color:var(--muted);font-size:16.5px;margin-bottom:16px}
+.menu-list{list-style:none;margin:22px 0;border-top:1px solid var(--line)}
+.menu-list li{display:flex;align-items:baseline;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.menu-list li b{font-family:'Cormorant Garamond';font-size:22px;font-weight:600;color:var(--ink);white-space:nowrap}
+.menu-list li .dot{flex:1;border-bottom:1px dotted var(--line-2);transform:translateY(-4px)}
+.menu-list li span{font-size:14px;color:var(--muted)}
+
+/* Reviews */
+.reviews{background:var(--linen);text-align:center}
+.rev-stars{color:var(--gold);font-size:26px;letter-spacing:4px;margin-bottom:14px}
+.rev-stat{font-family:'Cormorant Garamond';font-size:clamp(60px,9vw,104px);font-weight:600;line-height:.9;color:var(--falu)}
+.rev-sub{font-size:14px;letter-spacing:.04em;color:var(--muted);margin-top:8px}
+.rev-quote{font-family:'Cormorant Garamond';font-style:italic;font-size:clamp(24px,3vw,34px);color:var(--ink);max-width:24ch;margin:40px auto 0;line-height:1.3}
+.rev-cta{margin-top:36px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+
+/* Pause */
+.pause{position:relative;min-height:min(58vh,480px);display:flex;align-items:center;overflow:hidden;background:var(--ink)}
+.pause-bg{position:absolute;inset:0}
+.pause-bg img{width:100%;height:100%;object-fit:cover;filter:brightness(.5)}
+.pause-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(28,20,14,.68),rgba(28,20,14,.34))}
+.pause .wrap{position:relative;z-index:2;color:#fff;text-align:center}
+.pause .qm{font-family:'Cormorant Garamond';font-size:100px;line-height:0;color:var(--gold-l);opacity:.5;display:block;height:40px;margin-bottom:10px}
+.pause blockquote{font-family:'Cormorant Garamond';font-size:clamp(30px,4.4vw,56px);font-weight:600;font-style:italic;line-height:1.2;max-width:22ch;margin:0 auto}
+.pause blockquote span{color:var(--gold-l)}
+.pause cite{display:block;margin-top:24px;font-style:normal;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.74)}
+
+/* Visit */
+.visit{background:linear-gradient(180deg,var(--linen-2),var(--linen))}
+.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.visit-copy .sec-lead{margin-bottom:24px}
+.info-list{list-style:none;border-top:1px solid var(--line)}
+.info-list li{display:flex;gap:16px;padding:16px 2px;border-bottom:1px solid var(--line);align-items:flex-start}
+.info-list li .ic{width:44px;height:44px;border-radius:50%;background:#fff;border:1px solid var(--line-2);color:var(--falu);display:grid;place-items:center;flex-shrink:0}
+.info-list li .ic svg{width:20px;height:20px}
+.info-list li small{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-l);margin-bottom:2px}
+.info-list li a,.info-list li span{font-size:16px;color:var(--ink)}
+.info-list li a:hover{color:var(--falu)}
+.hours-card{background:var(--falu);color:#fff;border-radius:4px;padding:44px 42px;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.hours-card::before{content:'';position:absolute;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.12),transparent 65%);top:-120px;right:-70px}
+.hours-card .hc-eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--linen);font-weight:600;margin-bottom:14px;position:relative}
+.hours-card h3{font-family:'Cormorant Garamond';font-size:34px;font-weight:600;margin-bottom:20px;position:relative}
+.hours-row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.18);font-size:15.5px;position:relative}
+.hours-row.today{font-weight:600}
+.hours-row .d{color:rgba(255,255,255,.92)}
+.hours-row .t{color:#fff;font-family:'Cormorant Garamond';font-size:18px}
+.hours-row.closed .t{color:rgba(255,255,255,.55)}
+.hours-note{position:relative;margin-top:16px;font-size:13px;color:rgba(255,255,255,.72);font-style:italic}
+.hours-card .btn{position:relative;width:100%;margin-top:24px}
+
+/* Footer */
+footer{background:#23180F;color:rgba(247,241,230,.58);padding:clamp(56px,7vw,90px) 0 34px}
+.foot-top{display:grid;grid-template-columns:1.7fr 1fr 1fr;gap:44px;margin-bottom:52px}
+.foot-brand .brand{color:#fff;margin-bottom:16px}
+.foot-brand .brand .mark{color:var(--gold-l)}
+.foot-brand .brand span{color:var(--gold-l)}
+.foot-brand p{font-size:15px;max-width:340px;color:rgba(247,241,230,.58)}
+.foot-top h4{color:#fff;font-family:'Cormorant Garamond';font-size:23px;font-weight:600;margin-bottom:14px}
+.foot-top a{display:block;font-size:15px;padding:6px 0;transition:.2s}
+.foot-top a:hover{color:var(--gold-l);padding-left:4px}
+.foot-bottom{border-top:1px solid var(--line-dark);padding-top:26px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:13px;color:rgba(247,241,230,.42)}
+
+.totop{position:fixed;right:20px;bottom:20px;z-index:80;width:50px;height:50px;border-radius:50%;background:var(--falu);color:#fff;border:0;display:grid;place-items:center;font-size:20px;opacity:0;pointer-events:none;transform:translateY(12px);transition:.3s;box-shadow:var(--shadow-sm)}
+.totop.show{opacity:1;pointer-events:auto;transform:none}
+.totop:hover{background:var(--ink)}
+
+.sticky-cta{display:none;position:fixed;left:0;right:0;bottom:0;z-index:90;background:var(--falu);padding:12px 14px calc(12px + env(safe-area-inset-bottom));gap:10px;box-shadow:0 -8px 30px rgba(0,0,0,.3)}
+.sticky-cta a{flex:1;text-align:center;min-height:50px;padding:13px 12px}
+
+.reveal{opacity:0;transform:translateY(30px);transition:opacity 1s cubic-bezier(.2,.6,.2,1),transform 1s cubic-bezier(.2,.6,.2,1)}
+.reveal.visible{opacity:1;transform:none}
+.reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important}.reveal{opacity:1;transform:none;transition:none}.hero-bg img{transform:none}.ribbon-track{animation:none}}
+
+@media(max-width:1080px){nav.main{display:none}.burger{display:flex}}
+@media(max-width:960px){
+  .facts .wrap{grid-template-columns:1fr 1fr}
+  .facts .f:nth-child(2){border-right:none}
+  .wel-grid,.craft-grid,.cafe-grid{grid-template-columns:1fr;gap:48px}
+  .wel-media,.cafe-media{max-width:520px}
+  .wel-media,.cafe-media,.craft-media{order:-1}
+  .craft-media{max-width:560px}
+  .wel-media img,.cafe-media img{height:440px}
+  .cards{grid-template-columns:1fr 1fr}
+  .visit-grid{grid-template-columns:1fr;gap:44px}
+  .foot-top{grid-template-columns:1fr 1fr}
+  .sticky-cta{display:flex}
+  .totop{bottom:78px}
+  footer{padding-bottom:94px}
+  .hero-scroll{display:none}
+}
+@media(max-width:720px){.topstrip .l,.topstrip .em{display:none}}
+@media(max-width:640px){
+  section{padding:60px 0}
+  .facts .wrap{grid-template-columns:1fr;gap:16px}
+  .facts .f:not(:last-child){border-right:none;border-bottom:1px solid rgba(255,255,255,.22);padding-bottom:14px}
+  .cards{grid-template-columns:1fr}
+  .foot-top{grid-template-columns:1fr;gap:32px}
+  .ribbon-track span{font-size:17px}
+  .hero-actions .btn{flex:1;min-width:150px}
+  .wel-media .stamp{width:98px;height:98px;top:-14px;left:-14px}
+}
+@media(max-width:400px){.hero-actions{flex-direction:column;width:100%}.hero-actions .btn{width:100%}}
+
+/* Customer photography and the atelier collections. */
+.reveal{opacity:1;transform:none;transition:none}
+.text-link{display:inline-flex;align-items:center;min-height:44px;margin-top:12px;font-size:14px;font-weight:600;color:var(--falu);text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.text-link:hover{text-decoration-thickness:2px}
+.profile img{height:auto;aspect-ratio:1;object-fit:cover}
+.profile figcaption{display:flex;flex-direction:column;gap:2px;margin-top:17px;padding-left:2px;font-size:13px;color:var(--muted)}
+.profile figcaption strong{font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1.2;color:var(--ink)}
+.section-heading{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,70px);align-items:start}
+.section-heading .sec-title{margin-bottom:0}
+.section-heading .sec-lead{margin:0;padding-top:4px}
+.card-link{display:flex;flex-direction:column;height:100%}
+.card-img{height:auto;aspect-ratio:1}
+.card-body{flex:1;display:flex;flex-direction:column;align-items:flex-start}
+.card-body .text-link{margin-top:auto;padding-top:18px}
+.card:hover{transform:none}
+.card-img img{transition:transform .45s ease-out}
+.card:hover .card-img img{transform:scale(1.025)}
+.photo-grid{display:grid;gap:24px}
+.children-gallery{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:44px}
+.photo-item{min-width:0}
+.gallery-open{display:block;position:relative;background:var(--linen-2);overflow:hidden;border-radius:3px;cursor:zoom-in}
+.gallery-open img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;transition:filter .25s ease}
+.gallery-open:hover img{filter:brightness(1.045)}
+.zoom-icon{position:absolute;right:14px;bottom:14px;display:grid;place-items:center;width:42px;height:42px;background:var(--linen);color:var(--ink);border-radius:50%;box-shadow:0 3px 10px rgba(42,33,25,.12)}
+.zoom-icon svg{width:22px;height:22px}
+.photo-item figcaption{margin-top:12px;font-size:14px;line-height:1.5;color:var(--muted)}
+.craft-heading .sec-title{color:var(--linen)}
+.craft-heading .sec-title em{color:var(--gold-l)}
+.craft-heading p{color:rgba(247,241,230,.85);margin-bottom:16px}
+.craft .text-link,.craft .photo-item figcaption{color:var(--gold-l)}
+.craft :focus-visible{outline-color:var(--gold-l)}
+.watercolours{background:var(--linen)}
+.watercolour-feature,.shop-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,74px);align-items:center}
+.watercolour-copy p:not(.sec-lead){color:var(--muted);margin-top:20px}
+.gallery-heading{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin:52px 0 24px;border-top:1px solid var(--line);padding-top:26px}
+.gallery-heading h3{font-size:30px;line-height:1.2}
+.gallery-heading p{font-size:13px;color:var(--muted)}
+.art-gallery{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.art-gallery figcaption{font-size:13px}
+.shop-story{background:var(--linen-3)}
+.cafe-media img{height:auto;box-shadow:none}
+.cafe-media::before{display:none}
+.cafe-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+.photo-dialog{position:fixed;inset:0;margin:auto;width:min(960px,calc(100vw - 28px));max-height:calc(100dvh - 28px);padding:14px;border:0;border-radius:5px;background:var(--linen);color:var(--ink);box-shadow:var(--shadow);overflow:auto}
+.photo-dialog::backdrop{background:rgba(20,16,12,.88)}
+.photo-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:0 0 12px}
+.photo-dialog h2{font-size:26px;margin:0;line-height:1.2}
+.photo-dialog-close{flex-shrink:0;background:transparent;border:1px solid var(--line-2);color:var(--ink);width:44px;height:44px;display:grid;place-items:center;border-radius:50%}
+.photo-dialog-close svg{width:22px;height:22px}
+.photo-dialog img{height:min(74dvh,820px);width:100%;object-fit:contain;background:var(--linen-2)}
+.photo-dialog-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px;font-size:13px}
+.photo-dialog-step{display:flex;gap:8px}
+.photo-dialog-step[hidden]{display:none}
+.photo-dialog-step button{width:44px;height:44px;background:transparent;border:1px solid var(--line-2);color:var(--ink);border-radius:50%}
+.photo-dialog-step svg{width:22px;height:22px;vertical-align:middle}
+body.gallery-active{overflow:hidden}
+.image-error{padding:24px;background:var(--linen-2);color:var(--ink);font-size:14px}
+.topstrip .wrap,.bar{padding-left:clamp(20px,3vw,34px);padding-right:clamp(20px,3vw,34px)}
+header.solid .bar{padding-left:clamp(20px,3vw,34px);padding-right:clamp(20px,3vw,34px)}
+nav.main{gap:22px}
+@media(max-width:1100px){nav.main{display:none}.burger{display:flex}}
+@media(max-width:960px){
+ .wel-grid{grid-template-columns:1fr 1fr;gap:32px}.wel-media{order:0;max-width:none}
+ .section-heading{gap:32px}.sec-title{font-size:clamp(38px,5vw,58px)}
+ .cafe-grid{grid-template-columns:1fr 1fr;gap:32px}.cafe-media{order:0;max-width:none}
+ .art-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+ .cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card-body{padding:24px 18px}.card-body h3{font-size:27px}
+}
+@media(max-width:700px){
+ .head-right{display:none}.brand b{font-size:24px}.brand .mark{width:40px;height:40px}.bar{gap:12px}
+ .lang button{min-width:40px;min-height:32px}.topstrip .wrap{justify-content:space-between}.topstrip .r{justify-content:space-between;width:100%}
+ .hero{min-height:680px}.hero-inner{padding:170px 24px 110px}.hero h1{font-size:clamp(52px,11vw,78px)}.hero-lead{font-size:17px;line-height:1.7}
+ .mobile-menu{padding-top:150px;padding-bottom:100px}.mobile-menu a{font-size:29px;padding:9px 0}
+ .wel-grid,.section-heading,.watercolour-feature,.shop-grid,.cafe-grid{grid-template-columns:1fr;gap:30px}
+ .wel-media{max-width:480px}.profile figcaption{margin-top:14px}.profile img{height:auto}
+ .cards{grid-template-columns:1fr;margin-top:32px;gap:28px}.card-body{padding:25px}.card-body h3{font-size:31px}
+ .children-gallery{grid-template-columns:1fr;margin-top:32px;gap:32px}
+ .watercolour-copy{order:-1}.gallery-heading{display:block;margin-top:38px}.gallery-heading p{margin-top:10px}
+ .art-gallery{gap:22px 14px}.art-gallery .zoom-icon{width:34px;height:34px;right:9px;bottom:9px}.art-gallery figcaption{font-size:12px}
+ .cafe-gallery{grid-template-columns:1fr;gap:30px}.cafe-media{max-width:none}
+ .photo-dialog{padding:12px}.photo-dialog h2{font-size:23px}.photo-dialog img{height:auto;max-height:68dvh}
+ .menu-list li{gap:10px}.menu-list li b{font-size:20px}.menu-list li span{font-size:13px}
+ .hours-card{padding:32px 24px}.foot-brand p{max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+</style>
+</head>
+<body>
+<a href="#main" class="skip" data-en="Skip to content">Hoppa till innehåll</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header id="header">
+  <div class="topstrip">
+    <div class="wrap">
+      <span class="l" data-en="Farm shop &amp; café · Skruv · Glasriket">Gårdsbutik &amp; café · Skruv · Glasriket</span>
+      <span class="r">
+        <a href="tel:+46705593011">070-559 30 11</a>
+        <span class="sep em" aria-hidden="true">·</span>
+        <a class="em" href="mailto:info@ateljevidagard.com">info@ateljevidagard.com</a>
+        <span class="lang" role="group" aria-label="Språk / Language">
+          <button data-lang="sv" class="on" aria-pressed="true">SV</button>
+          <button data-lang="en" aria-pressed="false">EN</button>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div class="wrap bar">
+    <a href="#top" class="brand" aria-label="Ateljé Vidagård, till toppen">
+      <span class="mark" aria-hidden="true">AV</span>
+      <span class="txt"><b>Ateljé Vidagård</b><span data-en="Hand-painted · Since 1994">Handmålat · Sedan 1994</span></span>
+    </a>
+    <nav class="main" aria-label="Huvudmeny">
+      <a href="#om" data-en="Kristina">Kristina</a>
+      <a href="#sortiment" data-en="Shop">Sortiment</a>
+      <a href="#handmalat" data-en="Children’s chairs">Barnstolar</a>
+      <a href="#akvareller" data-en="Watercolours">Akvareller</a>
+      <a href="#cafe" data-en="Café">Café</a>
+      <a href="#besok" data-en="Visit">Hitta hit</a>
+    </nav>
+    <div class="head-right">
+      <a href="#besok" class="btn btn-falu" data-en="Opening hours">Öppettider</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Öppna meny" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#om" data-en="Kristina">Kristina</a>
+  <a href="#sortiment" data-en="Shop">Sortiment</a>
+  <a href="#handmalat" data-en="Children’s chairs">Barnstolar</a>
+  <a href="#akvareller" data-en="Watercolours">Akvareller</a>
+  <a href="#cafe" data-en="Café">Café</a>
+  <a href="#besok" data-en="Visit">Hitta hit</a>
+  <a href="#besok" class="btn btn-falu" data-en="Opening hours">Öppettider</a>
+</div>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top" aria-label="Ateljé Vidagård">
+  <div class="hero-bg"><img src="assets/images/atelje-exterior.webp" srcset="assets/images/atelje-exterior-640.webp 640w, assets/images/atelje-exterior.webp 1200w" sizes="100vw" width="1200" height="1200" alt="Ateljé Vidagårds röda fasad, gröna dörrar och blommande entré." data-en-alt="The red façade, green doors and flowering entrance at Ateljé Vidagård." loading="eager" decoding="async" fetchpriority="high"></div>
+  <div class="hero-inner">
+    <span class="hero-seal"><span class="st" aria-hidden="true"></span><span data-en="Est. 1994 · Skruv, Glasriket">Est. 1994 · Skruv, Glasriket</span><span class="st" aria-hidden="true"></span></span>
+    <p class="hero-eyebrow" data-en="Farm shop &amp; café">Gårdsbutik &amp; café</p>
+    <h1 data-en="Hand-painted, <em>with love</em>.">Handmålat, <em>med kärlek</em>.</h1>
+    <svg class="brushline" viewBox="0 0 320 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 9C46 4 78 12 112 8s64-7 104-3 66 9 100 4" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/></svg>
+    <p class="hero-lead" data-en="An atelier, shop and café out in the countryside, in the heart of the emigrant district. Hand-painted children’s chairs, watercolours and home décor — and homemade fika in a cosy garden.">En ateljé, butik och café på landet mitt i utvandrarbygden. Handmålade barnstolar, akvareller och inredning – och hembakat fika i en mysig trädgård.</p>
+    <div class="hero-actions">
+      <a href="#sortiment" class="btn btn-cream" data-en="Explore the shop">Upptäck sortimentet <span class="arw" aria-hidden="true">→</span></a>
+      <a href="#besok" class="btn btn-outline-l" data-en="Plan your visit">Planera besöket</a>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><span data-en="Scroll">Skrolla</span><span class="ln"></span></div>
+</section>
+
+<!-- FACTS -->
+<div class="facts" aria-label="Snabbfakta">
+  <div class="wrap">
+    <div class="f reveal"><b data-en="Since 1994">Sedan 1994</b><span data-en="By Kristina Lind">Av Kristina Lind</span></div>
+    <div class="f reveal d1"><b data-en="Hand-painted on site">Handmålat på plats</b><span data-en="Furniture, watercolours &amp; décor">Möbler, akvareller &amp; inredning</span></div>
+    <div class="f reveal d2"><b data-en="Café in the garden">Café i trädgården</b><span data-en="Homemade treats">Hembakade läckerheter</span></div>
+    <div class="f reveal d3"><b data-en="In the emigrant district">Mitt i utvandrarbygden</b><span data-en="Fields &amp; meadows all around">Åkrar &amp; ängar runt om</span></div>
+  </div>
+</div>
+
+<!-- RIBBON -->
+<div class="ribbon" aria-hidden="true">
+  <div class="ribbon-track">
+    <span>Handmålade barnstolar och barnmöbler</span><b>✦</b><span>Akvareller</span><b>✦</b><span>Inredning &amp; presenter</span><b>✦</b><span>Hembakat fika</span><b>✦</b><span>Toscakaka &amp; kladdkaka</span><b>✦</b><span>Mitt i Glasriket</span><b>✦</b>
+    <span>Handmålade barnstolar och barnmöbler</span><b>✦</b><span>Akvareller</span><b>✦</b><span>Inredning &amp; presenter</span><b>✦</b><span>Hembakat fika</span><b>✦</b><span>Toscakaka &amp; kladdkaka</span><b>✦</b><span>Mitt i Glasriket</span><b>✦</b>
+  </div>
+</div>
+
+<!-- OM -->
+<section class="welcome" id="om">
+  <div class="wrap wel-grid">
+    <div class="wel-copy">
+      <h2 class="sec-title" data-en="Meet Kristina, <em>the heart of the atelier</em>.">Möt Kristina, <em>hjärtat i ateljén</em>.</h2>
+      <p class="big" data-en="Ateljé Vidagård was founded in 1994 by Kristina Lind, after many years as a glass painter at Strömbergshyttan.">Ateljé Vidagård startades 1994 av Kristina Lind, efter många år som glasmålare i Strömbergshyttan.</p>
+      <p data-en="Today, her painting takes shape in playful children’s chairs and expressive watercolours. Here, in the countryside around Skruv, there is room for both small details and a love of colour.">I dag tar hennes måleri form i lekfulla barnstolar och stämningsfulla akvareller. Här på landet utanför Skruv finns plats för både de små detaljerna och kärleken till färg.</p>
+      <p data-en="The atelier shares its home with a carefully curated décor shop and a café. Come for the craft, find something for your home and stay for fika.">Ateljén delar plats med en butik med utvald inredning och ett café. Kom för hantverket, hitta något till hemmet och stanna en stund för fika.</p>
+      <a class="text-link" href="#handmalat" data-en="Discover Kristina’s work →">Upptäck Kristinas måleri →</a>
+    </div>
+    <figure class="wel-media profile">
+      <img src="assets/images/kristina-lind.webp" srcset="assets/images/kristina-lind-640.webp 640w, assets/images/kristina-lind.webp 1200w" sizes="(max-width: 640px) 100vw, 50vw" width="1200" height="1200" alt="Kristina Lind i Ateljé Vidagård." data-en-alt="Kristina Lind at Ateljé Vidagård." loading="lazy" decoding="async">
+      <figcaption><strong>Kristina Lind</strong><span data-en="Artist &amp; founder of Ateljé Vidagård">Konstnär &amp; grundare av Ateljé Vidagård</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- SORTIMENT -->
+<section class="range" id="sortiment">
+  <div class="wrap">
+    <div class="section-heading"><h2 class="sec-title" data-en="Made to <em>treasure</em>.">Gjort för att <em>tycka om</em>.</h2><p class="sec-lead" data-en="Hand-painted children’s chairs, original watercolours and carefully chosen décor. Explore a few glimpses of life at Vidagård.">Handmålade barnstolar, egna akvareller och utvald inredning. Här får du en inblick i det som fyller Vidagård med färg och liv.</p></div>
+    <div class="cards"><article class="card"><a href="#handmalat" class="card-link">
+      <div class="card-img"><img src="assets/images/barnstol-kanin.webp" srcset="assets/images/barnstol-kanin-640.webp 640w, assets/images/barnstol-kanin.webp 1200w" sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw" width="1200" height="1200" alt="Blå och vit barnstol med handmålade kaniner och morötter." data-en-alt="A blue and white children’s chair with hand-painted rabbits and carrots." loading="lazy" decoding="async"></div>
+      <div class="card-body"><h3 data-en="Hand-painted children’s chairs">Handmålade barnstolar</h3><p data-en="Small furniture with plenty of personality. Playful animal motifs and care in every brushstroke.">Små möbler med stor personlighet. Lekfulla djurmotiv och omsorg om varje penseldrag.</p><span class="text-link" data-en="Explore →">Upptäck mer →</span></div>
+    </a></article>
+<article class="card"><a href="#akvareller" class="card-link">
+      <div class="card-img"><img src="assets/images/akvareller-ateljen.webp" srcset="assets/images/akvareller-ateljen-640.webp 640w, assets/images/akvareller-ateljen.webp 1200w" sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw" width="1200" height="1200" alt="Kristinas akvareller med landskapsmotiv i ateljén." data-en-alt="Kristina’s landscape watercolours in the atelier." loading="lazy" decoding="async"></div>
+      <div class="card-body"><h3 data-en="Watercolours">Akvareller</h3><p data-en="Landscapes, seasons and quiet moments. Explore Kristina’s paintings on paper.">Landskap, årstider och stilla ögonblick. Upptäck Kristinas måleri på papper.</p><span class="text-link" data-en="Explore →">Upptäck mer →</span></div>
+    </a></article>
+<article class="card"><a href="#butiken" class="card-link">
+      <div class="card-img"><img src="assets/images/butik-interior.webp" srcset="assets/images/butik-interior-640.webp 640w, assets/images/butik-interior.webp 1200w" sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw" width="1200" height="1200" alt="Inredning, möbler och lampor i Ateljé Vidagårds butik." data-en-alt="Furniture, lighting and home décor in the Ateljé Vidagård shop." loading="lazy" decoding="async"></div>
+      <div class="card-body"><h3 data-en="Décor &amp; gifts">Inredning &amp; presenter</h3><p data-en="Personal details and carefully chosen pieces to give as a gift or take home.">Personliga detaljer och omsorgsfullt utvalda ting att ge bort eller ta med hem.</p><span class="text-link" data-en="Explore →">Upptäck mer →</span></div>
+    </a></article></div>
+  </div>
+</section>
+
+<!-- HANDMÅLADE BARNSTOLAR -->
+<section class="craft" id="handmalat">
+  <div class="wrap">
+    <div class="section-heading craft-heading">
+      <h2 class="sec-title" data-en="A little chair. <em>A whole world of stories.</em>">En liten stol. <em>En hel värld av sagor.</em></h2>
+      <div><p data-en="A rabbit with its carrot cart, an elephant and a curious cat. Kristina paints children’s chairs and furniture by hand, with playful motifs that invite a closer look.">En kanin med sin morotsvagn, en elefant och en nyfiken katt. Kristina målar barnstolar och barnmöbler för hand, med lekfulla motiv som bjuder in till att titta lite närmare.</p><p data-en="Here are a few examples from the atelier. Contact Kristina to ask what is available or to talk about a hand-painted chair.">Här ser du några exempel från ateljén. Kontakta Kristina för att höra vad som finns inne eller prata om en handmålad stol.</p><a class="text-link" href="mailto:info@ateljevidagard.com?subject=Handm%C3%A5lad%20barnstol" data-en="Ask about a children’s chair →">Fråga om en barnstol →</a></div>
+    </div>
+    <div class="photo-grid children-gallery"><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/barnstol-kanin.webp" data-caption-sv="Kaniner &amp; morötter" data-caption-en="Rabbits &amp; carrots" aria-label="Förstora: Kaniner &amp; morötter" data-en-label="Enlarge: Rabbits &amp; carrots">
+        <img src="assets/images/barnstol-kanin.webp" srcset="assets/images/barnstol-kanin-640.webp 640w, assets/images/barnstol-kanin.webp 1200w" sizes="(max-width: 640px) 100vw, 50vw" width="1200" height="1200" alt="Blå barnstol med kaninmotiv på rygg och sits." data-en-alt="A blue children’s chair with rabbit motifs on the back and seat." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="Rabbits &amp; carrots">Kaniner &amp; morötter</figcaption>
+    </figure><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/barnmobler-djur.webp" data-caption-sv="Djurmotiv på stol &amp; bord" data-caption-en="Animal motifs on a chair &amp; table" aria-label="Förstora: Djurmotiv på stol &amp; bord" data-en-label="Enlarge: Animal motifs on a chair &amp; table">
+        <img src="assets/images/barnmobler-djur.webp" srcset="assets/images/barnmobler-djur-640.webp 640w, assets/images/barnmobler-djur.webp 1200w" sizes="(max-width: 640px) 100vw, 50vw" width="1200" height="1200" alt="Grön barnstol med handmålade djur och tillhörande målat bord." data-en-alt="A green children’s chair with hand-painted animals and a matching painted table." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="Animal motifs on a chair &amp; table">Djurmotiv på stol &amp; bord</figcaption>
+    </figure></div>
+  </div>
+</section>
+
+<!-- AKVARELLER -->
+<section class="watercolours" id="akvareller">
+  <div class="wrap">
+    <div class="watercolour-feature">
+      <figure class="photo-item">
+      <a class="gallery-open" href="assets/images/akvareller-ateljen.webp" data-caption-sv="På arbetsbordet i ateljén" data-caption-en="On the atelier worktable" aria-label="Förstora: På arbetsbordet i ateljén" data-en-label="Enlarge: On the atelier worktable">
+        <img src="assets/images/akvareller-ateljen.webp" srcset="assets/images/akvareller-ateljen-640.webp 640w, assets/images/akvareller-ateljen.webp 1200w" sizes="(max-width: 640px) 100vw, 50vw" width="1200" height="1200" alt="Akvareller i gröna, gula och rostfärgade toner på Kristinas arbetsbord." data-en-alt="Watercolours in green, yellow and rust tones on Kristina’s worktable." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="On the atelier worktable">På arbetsbordet i ateljén</figcaption>
+    </figure>
+      <div class="watercolour-copy"><h2 class="sec-title" data-en="Landscapes in <em>colour and light</em>.">Landskap i <em>färg och ljus</em>.</h2>
+        <p class="sec-lead" data-en="Kristina also paints watercolours. Fields, red farmhouses, still water and changing seasons find their way onto the paper.">Kristina målar också akvareller. Åkrar, röda gårdar, stilla vatten och årstidernas skiftningar får ta plats på papperet.</p>
+        <p data-en="From the first washes on the worktable to a framed painting. Here is a selection of her work, with the soft colours and living textures of watercolour.">Från de första färgfälten på arbetsbordet till en inramad målning. Här visas ett urval av hennes måleri, med akvarellens mjuka färger och levande uttryck.</p>
+        <a class="text-link" href="mailto:info@ateljevidagard.com?subject=Akvareller" data-en="Ask about a painting →">Fråga om en målning →</a>
+      </div>
+    </div>
+    <div class="gallery-heading"><h3 data-en="A selection of watercolours">Ett urval av akvareller</h3><p data-en="Select an image to see it larger.">Tryck på en bild för att se den större.</p></div>
+    <div class="photo-grid art-gallery"><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/akvarell-garden.webp" data-caption-sv="Gården &amp; fälten" data-caption-en="The farm &amp; fields" aria-label="Förstora: Gården &amp; fälten" data-en-label="Enlarge: The farm &amp; fields">
+        <img src="assets/images/akvarell-garden.webp" srcset="assets/images/akvarell-garden-640.webp 640w, assets/images/akvarell-garden.webp 1200w" sizes="(max-width: 640px) 50vw, 25vw" width="1200" height="1200" alt="Akvarell av röda gårdsbyggnader under en molnig himmel." data-en-alt="Watercolour of red farm buildings beneath a cloudy sky." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="The farm &amp; fields">Gården &amp; fälten</figcaption>
+    </figure>
+<figure class="photo-item">
+      <a class="gallery-open" href="assets/images/akvarell-sjon.webp" data-caption-sv="Vid det stilla vattnet" data-caption-en="By the still water" aria-label="Förstora: Vid det stilla vattnet" data-en-label="Enlarge: By the still water">
+        <img src="assets/images/akvarell-sjon.webp" srcset="assets/images/akvarell-sjon-640.webp 640w, assets/images/akvarell-sjon.webp 1200w" sizes="(max-width: 640px) 50vw, 25vw" width="1200" height="1200" alt="Inramad akvarell med tallar, öar och speglingar i vatten." data-en-alt="A framed watercolour of pines, islands and reflections in water." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="By the still water">Vid det stilla vattnet</figcaption>
+    </figure>
+<figure class="photo-item">
+      <a class="gallery-open" href="assets/images/akvarell-vinter.webp" data-caption-sv="Vinter vid gården" data-caption-en="Winter at the farm" aria-label="Förstora: Vinter vid gården" data-en-label="Enlarge: Winter at the farm">
+        <img src="assets/images/akvarell-vinter.webp" srcset="assets/images/akvarell-vinter-640.webp 640w, assets/images/akvarell-vinter.webp 1200w" sizes="(max-width: 640px) 50vw, 25vw" width="1200" height="1200" alt="Inramad akvarell med röda gårdshus i ett vinterlandskap." data-en-alt="A framed watercolour of red farmhouses in a winter landscape." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="Winter at the farm">Vinter vid gården</figcaption>
+    </figure>
+<figure class="photo-item">
+      <a class="gallery-open" href="assets/images/akvarell-kanalen.webp" data-caption-sv="Hus längs kanalen" data-caption-en="Houses along the canal" aria-label="Förstora: Hus längs kanalen" data-en-label="Enlarge: Houses along the canal">
+        <img src="assets/images/akvarell-kanalen.webp" srcset="assets/images/akvarell-kanalen-640.webp 640w, assets/images/akvarell-kanalen.webp 1200w" sizes="(max-width: 640px) 50vw, 25vw" width="1200" height="1200" alt="Inramad akvarell med gula hus och båtar vid en kanal." data-en-alt="A framed watercolour of yellow houses and boats beside a canal." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="Houses along the canal">Hus längs kanalen</figcaption>
+    </figure></div>
+  </div>
+</section>
+
+<!-- BUTIKEN -->
+<section class="shop-story" id="butiken">
+  <div class="wrap shop-grid"><div><h2 class="sec-title" data-en="A shop to <em>take your time in</em>.">En butik att <em>dröja kvar i</em>.</h2><p class="sec-lead" data-en="Among lamps, textiles, furniture and small gifts, there is plenty to discover. Familiar materials and personal details meet in the old farm setting.">Bland lampor, textilier, möbler och små presenter finns mycket att upptäcka. Här möts välbekanta material och personliga detaljer i gårdens miljö.</p><a class="text-link" href="#besok" data-en="Plan your visit →">Planera ditt besök →</a></div><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/butik-interior.webp" data-caption-sv="En glimt av butiken" data-caption-en="A glimpse of the shop" aria-label="Förstora: En glimt av butiken" data-en-label="Enlarge: A glimpse of the shop">
+        <img src="assets/images/butik-interior.webp" srcset="assets/images/butik-interior-640.webp 640w, assets/images/butik-interior.webp 1200w" sizes="(max-width: 640px) 100vw, 50vw" width="1200" height="1200" alt="Ateljé Vidagårds butik med inredning, belysning och möbler." data-en-alt="The Ateljé Vidagård shop with home décor, lighting and furniture." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="A glimpse of the shop">En glimt av butiken</figcaption>
+    </figure></div>
+</section>
+
+<!-- CAFÉ -->
+<section class="cafe" id="cafe">
+  <div class="wrap cafe-grid">
+    <div class="cafe-copy reveal">
+
+      <h2 class="sec-title" data-en="Stay a while. <em>There’s time for fika.</em>">Stanna en stund. <em>Det finns tid för fika.</em></h2>
+      <p class="cafe-tag" data-en="Homemade, with a view over meadows and fields.">Hembakat, med utsikt över ängar och åkrar.</p>
+      <p data-en="On the farm there's a café with homemade treats. Settle into the cosy garden with a slice of Tosca cake or sticky chocolate kladdkaka, a savoury pie or a sandwich — and let the countryside do the rest.">På gården finns ett café med hembakade läckerheter. Slå dig ner i den mysiga trädgården med en bit toscakaka eller kladdkaka, en matpaj eller en smörgås – och låt landet göra resten.</p>
+      <ul class="menu-list">
+        <li><b>Toscakaka</b><span class="dot" aria-hidden="true"></span><span data-en="Almond-caramel classic">Klassisk med mandelkola</span></li>
+        <li><b>Kladdkaka</b><span class="dot" aria-hidden="true"></span><span data-en="Sticky &amp; chocolatey">Kladdig och chokladig</span></li>
+        <li><b>Matpajer</b><span class="dot" aria-hidden="true"></span><span data-en="Savoury pies">Matiga och goda</span></li>
+        <li><b data-en="Sandwiches">Smörgåsar</b><span class="dot" aria-hidden="true"></span><span data-en="Freshly made">Nygjorda</span></li>
+      </ul>
+      <p style="font-size:14.5px;color:var(--muted-l);font-style:italic" data-en="Open Saturdays 11–15 &amp; Sundays 12–16.">Öppet lördagar 11–15 &amp; söndagar 12–16.</p>
+    </div>
+    <div class="cafe-media"><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/cafe-hembakat.webp" data-caption-sv="Hembakat under glaskuporna" data-caption-en="Homemade treats under glass domes" aria-label="Förstora: Hembakat under glaskuporna" data-en-label="Enlarge: Homemade treats under glass domes">
+        <img src="assets/images/cafe-hembakat.webp" srcset="assets/images/cafe-hembakat-640.webp 640w, assets/images/cafe-hembakat.webp 1200w" sizes="(max-width: 640px) 100vw, 50vw" width="1200" height="1200" alt="Caféets kakor och bakverk under glaskupor på disken." data-en-alt="The café’s cakes and pastries under glass domes on the counter." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="Homemade treats under glass domes">Hembakat under glaskuporna</figcaption>
+    </figure></div>
+  </div>
+<div class="wrap cafe-places"><div class="gallery-heading"><h3 data-en="Find your favourite spot">Hitta din favoritplats</h3><p data-en="Inside, on the veranda or out in the fresh air.">Inne, på verandan eller ute i friska luften.</p></div><div class="photo-grid cafe-gallery"><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/cafe-salongen.webp" data-caption-sv="Bland fåtöljer &amp; gamla ting" data-caption-en="Armchairs &amp; vintage treasures" aria-label="Förstora: Bland fåtöljer &amp; gamla ting" data-en-label="Enlarge: Armchairs &amp; vintage treasures">
+        <img src="assets/images/cafe-salongen.webp" srcset="assets/images/cafe-salongen-640.webp 640w, assets/images/cafe-salongen.webp 1200w" sizes="(max-width: 640px) 100vw, 33vw" width="1200" height="1200" alt="Ombonat café med blommiga fåtöljer och runda träbord." data-en-alt="A cozy café room with floral armchairs and round wooden tables." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="Armchairs &amp; vintage treasures">Bland fåtöljer &amp; gamla ting</figcaption>
+    </figure><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/cafe-verandan.webp" data-caption-sv="Den ljusa verandan" data-caption-en="The light-filled veranda" aria-label="Förstora: Den ljusa verandan" data-en-label="Enlarge: The light-filled veranda">
+        <img src="assets/images/cafe-verandan.webp" srcset="assets/images/cafe-verandan-640.webp 640w, assets/images/cafe-verandan.webp 1200w" sizes="(max-width: 640px) 100vw, 33vw" width="1200" height="1200" alt="Ljus veranda med vita stolar, små bord och trasmattor." data-en-alt="A bright veranda with white chairs, small tables and rag rugs." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="The light-filled veranda">Den ljusa verandan</figcaption>
+    </figure><figure class="photo-item">
+      <a class="gallery-open" href="assets/images/cafe-uteplats.webp" data-caption-sv="En stund i det fria" data-caption-en="A moment in the fresh air" aria-label="Förstora: En stund i det fria" data-en-label="Enlarge: A moment in the fresh air">
+        <img src="assets/images/cafe-uteplats.webp" srcset="assets/images/cafe-uteplats-640.webp 640w, assets/images/cafe-uteplats.webp 1200w" sizes="(max-width: 640px) 100vw, 33vw" width="1200" height="1200" alt="Grönt cafébord och stolar på den täckta uteplatsen." data-en-alt="A green café table and chairs on the covered patio." loading="lazy" decoding="async"><span class="zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7"/></svg></span>
+      </a>
+      <figcaption data-en="A moment in the fresh air">En stund i det fria</figcaption>
+    </figure></div></div>
+</section>
+
+<!-- OMDÖMEN -->
+<section class="reviews" id="omdomen">
+  <div class="wrap">
+    <div class="reveal center">
+      <span class="eyebrow" data-en="Reviews">Omdömen</span>
+      <div class="rev-stars" aria-hidden="true">★★★★★</div>
+      <div class="rev-stat">88&nbsp;%</div>
+      <div class="rev-sub" data-en="of visitors recommend Ateljé Vidagård · Source: Facebook">rekommenderar Ateljé Vidagård · Källa: Facebook</div>
+      <p class="rev-quote" data-en="Visitors describe us as a cosy shop and café with that little extra — a place where you feel at home and well looked after.">Besökare beskriver oss som en mysig butik och café med det lilla extra – en plats där man känner sig hemma och väl omhändertagen.</p>
+      <div class="rev-cta">
+        <a href="https://www.facebook.com/AteljeVidagard" target="_blank" rel="noopener" class="btn btn-falu" data-en="Read reviews on Facebook">Läs omdömen på Facebook <span class="arw" aria-hidden="true">→</span></a>
+        <a href="https://www.instagram.com/atelje_vidagard/" target="_blank" rel="noopener" class="btn btn-outline" data-en="Follow on Instagram">Följ på Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAUSE -->
+<section class="pause" aria-label="Citat">
+  <div class="pause-bg"><img src="assets/images/atelje-exterior.webp" srcset="assets/images/atelje-exterior-640.webp 640w, assets/images/atelje-exterior.webp 1200w" sizes="100vw" width="1200" height="1200" alt="Blommor och den röda gårdsbutiken på Vidagård." data-en-alt="Flowers and the red farm shop at Vidagård." loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <span class="qm" aria-hidden="true">&ldquo;</span>
+    <blockquote data-en="Out here, among fields and meadows, there's <span>time to feel at home</span>.">Här ute, bland åkrar och ängar, finns <span>tid att känna sig hemma</span>.</blockquote>
+    <cite data-en="Ateljé Vidagård · Skruv, Glasriket">Ateljé Vidagård · Skruv, Glasriket</cite>
+  </div>
+</section>
+
+<!-- BESÖK -->
+<section class="visit" id="besok">
+  <div class="wrap visit-grid">
+    <div class="visit-copy reveal">
+      <span class="eyebrow" data-en="Visit us">Hitta hit</span>
+      <h2 class="sec-title" data-en="Come out to the <em>countryside</em>.">Kom ut till <em>landet</em>.</h2>
+      <p class="sec-lead" data-en="You'll find Ateljé Vidagård in Skruv, in the heart of Glasriket and the emigrant district — a lovely stop on your journey through Småland.">Du hittar Ateljé Vidagård i Skruv, mitt i Glasriket och utvandrarbygden – ett fint stopp på resan genom Småland.</p>
+      <ul class="info-list">
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><small data-en="Address">Adress</small><a href="https://www.google.com/maps/search/?api=1&query=Vida+V%C3%A4sterg%C3%A5rd+1+Skruv+365+94" target="_blank" rel="noopener">Vida Västergård 1, 365 94 Skruv</a></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span><div><small data-en="Phone">Telefon</small><a href="tel:+46705593011">070-559 30 11</a></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><small data-en="Email">E-post</small><a href="mailto:info@ateljevidagard.com">info@ateljevidagard.com</a></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span><div><small data-en="Follow us">Följ oss</small><a href="https://www.instagram.com/atelje_vidagard/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/AteljeVidagard" target="_blank" rel="noopener">Facebook</a></div></li>
+      </ul>
+    </div>
+    <div class="hours-card reveal d1">
+      <div class="hc-eyebrow" data-en="Opening hours">Öppettider</div>
+      <h3 data-en="Welcome in">Välkommen in</h3>
+      <div class="hours-row closed" data-day="1"><span class="d" data-en="Monday">Måndag</span><span class="t" data-en="Closed">Stängt</span></div>
+      <div class="hours-row closed" data-day="2"><span class="d" data-en="Tuesday">Tisdag</span><span class="t" data-en="Closed">Stängt</span></div>
+      <div class="hours-row closed" data-day="3"><span class="d" data-en="Wednesday">Onsdag</span><span class="t" data-en="Closed">Stängt</span></div>
+      <div class="hours-row closed" data-day="4"><span class="d" data-en="Thursday">Torsdag</span><span class="t" data-en="Closed">Stängt</span></div>
+      <div class="hours-row closed" data-day="5"><span class="d" data-en="Friday">Fredag</span><span class="t" data-en="Closed">Stängt</span></div>
+      <div class="hours-row" data-day="6"><span class="d" data-en="Saturday">Lördag</span><span class="t">11.00–15.00</span></div>
+      <div class="hours-row" data-day="0"><span class="d" data-en="Sunday">Söndag</span><span class="t">12.00–16.00</span></div>
+      <p class="hours-note" data-en="Deviations may occur on public holidays and around major holidays.">Avvikelser kan förekomma i samband med röda dagar och storhelger.</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Vida+V%C3%A4sterg%C3%A5rd+1+Skruv+365+94" target="_blank" rel="noopener" class="btn btn-cream" data-en="Open in Google Maps">Öppna i Google Maps <span class="arw" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark" aria-hidden="true">AV</span>
+          <span class="txt"><b style="font-family:'Cormorant Garamond';font-size:27px;font-weight:600">Ateljé Vidagård</b><span style="font-size:8.5px;letter-spacing:.26em;text-transform:uppercase" data-en="Hand-painted · Since 1994">Handmålat · Sedan 1994</span></span>
+        </div>
+        <p data-en="Atelier, shop and café in the countryside in Glasriket. Hand-painted children's furniture, watercolours and décor — and homemade fika in a cosy garden. Warmly welcome!">Ateljé, butik och café på landet i Glasriket. Handmålade barnstolar och barnmöbler, akvareller och inredning – och hembakat fika i en mysig trädgård. Varmt välkommen!</p>
+      </div>
+      <nav aria-label="Sidfot – meny">
+        <h4 data-en="Explore">Utforska</h4>
+        <a href="#sortiment" data-en="The shop">Sortiment</a>
+        <a href="#handmalat" data-en="Children’s chairs">Barnstolar</a>
+        <a href="#akvareller" data-en="Watercolours">Akvareller</a>
+        <a href="#cafe" data-en="Café">Café</a>
+        <a href="#omdomen" data-en="Reviews">Omdömen</a>
+      </nav>
+      <div>
+        <h4 data-en="Contact">Kontakt</h4>
+        <a href="https://www.google.com/maps/search/?api=1&query=Vida+V%C3%A4sterg%C3%A5rd+1+Skruv+365+94" target="_blank" rel="noopener">Vida Västergård 1, Skruv</a>
+        <a href="tel:+46705593011">070-559 30 11</a>
+        <a href="mailto:info@ateljevidagard.com">info@ateljevidagard.com</a>
+        <a href="https://www.instagram.com/atelje_vidagard/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Ateljé Vidagård · Skruv, Glasriket</span>
+      <span data-en="Hand-painted · Shop · Café">Handmålat · Butik · Café</span>
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="Till toppen">↑</button>
+
+<div class="sticky-cta">
+  <a href="tel:+46705593011" class="btn btn-outline-l" data-en="Call">Ring</a>
+  <a href="#besok" class="btn btn-cream" data-en="Opening hours">Öppettider</a>
+</div>
+
+
+<dialog class="photo-dialog" id="photoDialog" aria-labelledby="photoTitle">
+  <div class="photo-dialog-header"><h2 id="photoTitle"></h2><button type="button" class="photo-dialog-close" id="photoClose" aria-label="Stäng bild" data-en-label="Close image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+  <img id="photoLarge" alt="" width="1200" height="1200">
+  <div class="photo-dialog-footer"><span id="photoCount" aria-live="polite"></span><div class="photo-dialog-step"><button type="button" id="photoPrev" aria-label="Föregående bild" data-en-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg></button><button type="button" id="photoNext" aria-label="Nästa bild" data-en-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></button></div></div>
+</dialog>
+
+<script>
+(function(){
+  var header=document.getElementById('header'),progress=document.getElementById('progress'),totop=document.getElementById('totop');
+  function onScroll(){
+    var y=scrollY||document.documentElement.scrollTop;
+    header.classList.toggle('solid',y>40);
+    var h=document.documentElement.scrollHeight-innerHeight;
+    progress.style.width=(h>0?(y/h*100):0)+'%';
+    totop.classList.toggle('show',y>700);
+  }
+  addEventListener('scroll',onScroll,{passive:true});onScroll();
+  totop.addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'});});
+
+  var burger=document.getElementById('burger'),menu=document.getElementById('mobileMenu');
+  burger.addEventListener('click',function(){var o=menu.classList.toggle('open');burger.classList.toggle('x',o);burger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');burger.classList.remove('x');burger.setAttribute('aria-expanded','false');document.body.style.overflow='';});});
+
+  var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if('IntersectionObserver' in window && !reduce){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('visible');});}
+
+  var today=new Date().getDay();
+  var row=document.querySelector('.hours-row[data-day="'+today+'"]');
+  if(row)row.classList.add('today');
+
+  function setLang(l){
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      if(el.getAttribute('data-sv')===null)el.setAttribute('data-sv',el.innerHTML);
+      el.innerHTML=(l==='en')?el.getAttribute('data-en'):el.getAttribute('data-sv');
+    });
+    document.querySelectorAll('[data-en-alt]').forEach(function(el){
+      if(!el.hasAttribute('data-sv-alt'))el.setAttribute('data-sv-alt',el.alt);
+      el.alt=el.getAttribute(l==='en'?'data-en-alt':'data-sv-alt');
+    });
+    document.querySelectorAll('[data-en-label]').forEach(function(el){
+      if(!el.hasAttribute('data-sv-label'))el.setAttribute('data-sv-label',el.getAttribute('aria-label'));
+      el.setAttribute('aria-label',el.getAttribute(l==='en'?'data-en-label':'data-sv-label'));
+    });
+    document.documentElement.lang=(l==='en')?'en':'sv';
+    document.querySelectorAll('.lang button').forEach(function(b){
+      var on=b.getAttribute('data-lang')===l;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);
+    });
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-lang'));});});
+
+
+  var dialog=document.getElementById('photoDialog'),large=document.getElementById('photoLarge');
+  var galleryLinks=Array.from(document.querySelectorAll('.gallery-open')),currentGroup=[],photoIndex=0,opener=null;
+  function showPhoto(index){
+    photoIndex=(index+currentGroup.length)%currentGroup.length;
+    var link=currentGroup[photoIndex],en=document.documentElement.lang==='en';
+    large.src=link.getAttribute('href');large.alt=link.querySelector('img').alt;
+    document.getElementById('photoTitle').textContent=link.getAttribute(en?'data-caption-en':'data-caption-sv');
+    document.getElementById('photoCount').textContent=(photoIndex+1)+' / '+currentGroup.length;
+    document.querySelector('.photo-dialog-step').hidden=currentGroup.length<2;
+  }
+  galleryLinks.forEach(function(link){link.addEventListener('click',function(e){
+    if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||typeof dialog.showModal!=='function')return;
+    e.preventDefault();opener=link;
+    var group=link.closest('.photo-grid');currentGroup=group?Array.from(group.querySelectorAll('.gallery-open')):[link];
+    showPhoto(currentGroup.indexOf(link));dialog.showModal();document.body.classList.add('gallery-active');document.getElementById('photoClose').focus();
+  });});
+  document.getElementById('photoClose').addEventListener('click',function(){dialog.close();});
+  document.getElementById('photoPrev').addEventListener('click',function(){showPhoto(photoIndex-1);});
+  document.getElementById('photoNext').addEventListener('click',function(){showPhoto(photoIndex+1);});
+  dialog.addEventListener('click',function(e){if(e.target===dialog){var r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+  dialog.addEventListener('keydown',function(e){if(e.key==='ArrowRight'){e.preventDefault();showPhoto(photoIndex+1);}if(e.key==='ArrowLeft'){e.preventDefault();showPhoto(photoIndex-1);}});
+  dialog.addEventListener('close',function(){document.body.classList.remove('gallery-active');if(opener)opener.focus();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.classList.contains('open'))burger.click();});
+  matchMedia('(min-width:1101px)').addEventListener('change',function(e){if(e.matches&&menu.classList.contains('open'))burger.click();});
+  document.querySelectorAll('img[src]').forEach(function(img){img.addEventListener('error',function(){
+    if(img.nextElementSibling&&img.nextElementSibling.classList.contains('image-error'))return;
+    var note=document.createElement('p');note.className='image-error';note.textContent=document.documentElement.lang==='en'?'The image could not be loaded. Please try reloading the page.':'Bilden kunde inte laddas. Försök ladda om sidan.';img.after(note);
+  });});
+
+})();
+</script>
+</body>
+</html>
